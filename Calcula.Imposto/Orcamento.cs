@@ -2,7 +2,7 @@
 {
     public class Orcamento
     {
-        public double Valor { get; set; }
+        public double Valor { get;private set; }
 
         public Orcamento( double valor)
         {

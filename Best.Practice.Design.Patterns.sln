@@ -7,6 +7,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Strategy", "Strategy", "{6E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calcula.Imposto", "Calcula.Imposto\Calcula.Imposto.csproj", "{B92C814D-9135-4A7E-BD50-6A83F302E68F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ChainOfResponsibility", "ChainOfResponsibility", "{9344D815-1C2C-42A3-A9A6-6E6B5A43E054}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chain.Of.Resposibility", "Chain.Of.Resposibility\Chain.Of.Resposibility.csproj", "{D137F9A4-9571-46C9-B092-BB1C9979E713}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,12 +21,17 @@ Global
 		{B92C814D-9135-4A7E-BD50-6A83F302E68F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B92C814D-9135-4A7E-BD50-6A83F302E68F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B92C814D-9135-4A7E-BD50-6A83F302E68F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D137F9A4-9571-46C9-B092-BB1C9979E713}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D137F9A4-9571-46C9-B092-BB1C9979E713}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D137F9A4-9571-46C9-B092-BB1C9979E713}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D137F9A4-9571-46C9-B092-BB1C9979E713}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{B92C814D-9135-4A7E-BD50-6A83F302E68F} = {6E1A4A36-642C-403B-A13E-8B1DAD0516D7}
+		{D137F9A4-9571-46C9-B092-BB1C9979E713} = {9344D815-1C2C-42A3-A9A6-6E6B5A43E054}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BFDE4B8F-CF0F-487A-BFF5-976AD7E6C25F}
